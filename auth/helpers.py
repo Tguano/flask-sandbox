@@ -1,6 +1,6 @@
 from flask_security.utils import hash_password
 
-from app.core.models import db
+from core.models import db
 
 
 def init_security(user_datastore):

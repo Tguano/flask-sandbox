@@ -3,8 +3,8 @@ from flask_login import current_user
 from flask_security.utils import hash_password
 from wtforms import PasswordField
 
-from app.auth.models import User, Role
-from app.core.models import db
+from auth.models import User, Role
+from core.models import db
 
 
 # Customized User model for SQL-Admin

@@ -2,7 +2,7 @@ from flask import redirect
 
 from flask_security import login_required
 
-from app.auth import auth
+from auth import auth
 
 
 @auth.route('/auth/')

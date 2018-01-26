@@ -1,6 +1,6 @@
 from flask_security import UserMixin, RoleMixin
 
-from app.core.models import db, BaseModel
+from core.models import db, BaseModel
 
 roles_users = db.Table(
     'roles_users',
