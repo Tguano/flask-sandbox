@@ -1,0 +1,14 @@
+# SQLite databases
+**.sqlite
+
+# Pycharm project files
+.idea
+
+# Alembic migrations
+migrations
+
+# Venv link
+venv
+
+# Pycache
+__pycache__
