@@ -1,10 +1,10 @@
 from flask import render_template, request
 
-from app.blog import blog
+from blog import blog
 from flask_security import current_user
-from app.auth.models import User
+from auth.models import User
 
-# from app.blog.models import Post
+# from blog.models import Post
 
 
 # Подключать Blueprint с префиксом blog
